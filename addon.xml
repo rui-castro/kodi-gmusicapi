@@ -8,14 +8,15 @@
         <import addon="script.module.validictory" version="1.0.1"/>
         <import addon="script.module.decorator" version="3.4.0"/>
         <import addon="script.module.protobuf" version="2.6.1"/>
-        <!--<import addon="script.module.unittest2" version="1.1.0"/>-->
-        <!--<import addon="script.module.simplejson" version="3.3.0"/>-->
+        <import addon="script.module.unittest2" version="1.1.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.gpsoauth" version="0.0.4"/>
         <import addon="script.module.requests" version="2.7.0"/>
         <import addon="script.module.pyopenssl" version="1.0"/>
         <import addon="script.module.oauth2client" version="1.4.7"/>
         <import addon="script.module.dateutil" version="2.4.2"/>
         <import addon="script.module.mutagen" version="1.22.0"/>
+        <import addon="script.module.mechanicalsoup" version="0.3.1"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
