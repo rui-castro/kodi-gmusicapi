@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.gmusicapi"
        name="gmusicapi"
-       version="2015-10-07-7.0.0-1"
+       version="2015-10-07-7.0.0-2"
        provider-name="Rui Castro">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -17,7 +17,7 @@
         <import addon="script.module.dateutil" version="2.4.2"/>
         <import addon="script.module.mutagen" version="1.22.0"/>
         <import addon="script.module.mechanicalsoup" version="0.3.1"/>
-        <import addon="script.module.unittest" version="1.4.1"/>
+        <import addon="script.module.pyunit" version="1.4.1"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
