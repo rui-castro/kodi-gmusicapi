@@ -17,6 +17,7 @@
         <import addon="script.module.dateutil" version="2.4.2"/>
         <import addon="script.module.mutagen" version="1.22.0"/>
         <import addon="script.module.mechanicalsoup" version="0.3.1"/>
+        <import addon="script.module.unittest" version="1.4.1"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
